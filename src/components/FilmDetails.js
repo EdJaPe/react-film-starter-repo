@@ -13,15 +13,7 @@ class FilmDetails extends React.Component {
       return (
         <div className="film-details">
           <h1 className="section-title">FILMS</h1>
-          <div className="film-list-filters">
-            
-            <pan className></pan>
-            <div>
-            </div>
-          </div>
         </div>
-
-
     );
   };
 }

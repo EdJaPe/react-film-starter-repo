@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './App.css';
 import TMDB from './TMDB';
@@ -14,8 +14,7 @@ class App extends React.Component {
     return (
       <div className="film-library">
         <FilmListing films={TMDB.films}/>
-        <FilmDetails details={TMDB.films}/>
-        {/* <FilmRow /> */}
+        <FilmDetails details={TMDB.films}/>       
         
       </div>
 
